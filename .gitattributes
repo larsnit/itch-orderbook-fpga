@@ -1,0 +1,4 @@
+# language statistics count the design and the models, not the test code
+tb/**     linguist-vendored
+tests/**  linguist-vendored
+sim/**    linguist-vendored
