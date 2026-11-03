@@ -1,0 +1,32 @@
+# data: ITCH files, pcaps, vectors, expected outputs, captures
+data/
+*.pcap
+*.pcapng
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# simulation output (cocotb, Questa, nvc)
+sim_build/
+results.xml
+transcript
+*.wlf
+*.vstf
+*.vcd
+*.fst
+*.ghw
+modelsim.ini
+work/
+
+# Vivado output
+build/
+.Xil/
+*.dcp
+*.jou
+*.log
+*.str
